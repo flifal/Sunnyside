@@ -382,7 +382,7 @@ footer div a:hover img {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    height: 90%;
+    height: 100%;
   }
   article div:nth-of-type(1) {
     height: 70%;
