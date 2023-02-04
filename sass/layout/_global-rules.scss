@@ -1,0 +1,26 @@
+@use "../helpers/mixins" as *;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  font-size: 18px;
+}
+html,
+body {
+  height: 100%;
+}
+
+nav ul li:not(:last-child) {
+  text-transform: capitalize;
+}
+nav ul li:last-child {
+  text-transform: uppercase;
+}
+
+//grid system for rows
